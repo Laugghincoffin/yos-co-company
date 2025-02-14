@@ -1,1 +1,1 @@
-# yos-co-company
+# yos-co-company.github.io
