@@ -1,0 +1,44 @@
+
+body {
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.3KuHHk3Ft6NYKYf9x5V6LQHaEo&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    color: white;
+    border-top-style: dashed;
+}
+p {
+    color: white;
+    background-color: skyblue;
+}
+#paraf1 {
+    color: blue;
+    background: linear-gradient(to left, silver, gold, blue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#paraf2 {
+    color: gray;
+}
+#paraf3 {
+    color: red;
+    border-style: outset;    
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 5px;
+    padding: 5px;
+}
+#paraf4 {
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: double underline;
+}
+.parf {
+    color: blueviolet;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 500m;
+}
