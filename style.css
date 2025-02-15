@@ -5,6 +5,10 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    border-top: 10px solid ;
+}
+img {
+    position: relative;
 }
 h1 {
     color: white;
@@ -12,33 +16,80 @@ h1 {
 }
 p {
     color: white;
-    background-color: skyblue;
 }
-#paraf1 {
-    color: blue;
-    background: linear-gradient(to left, silver, gold, blue);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-#paraf2 {
-    color: gray;
-}
-#paraf3 {
-    color: red;
-    border-style: outset;    
-    border-width: 5px;
-    border-color: gold;
-    border-radius: 5px;
-    padding: 5px;
-}
-#paraf4 {
-    color: yellow;
-    font-weight: bold;
+.box {
     font-style: italic;
-    text-decoration: double underline;
+    color: white;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: black;
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+    background: linear-gradient(yellow,red);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    float: center;
 }
-.parf {
-    color: blueviolet;
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 500m;
+
+a:link {
+    color: lawngreen;
+    font-style: normal;
+}
+
+a:visited {
+    color:blue;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: yellow;
+}
+
+button:hover {
+    color: lawngreen;
+    background-color: gray;
+}
+
+button:active {
+    color: yellow;
+}
+
+#box3 {
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color: aqua;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box4 {
+    width: 150px;
+    height: 150px;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color: aqua;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li:nth-child(even) {
+    background-color: yellow;
+}
+
+li:nth-child(odd) {
+    background: linear-gradient(gold, silver);
 }
